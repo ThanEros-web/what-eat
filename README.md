@@ -39,9 +39,3 @@
 - 打包成单个 `index.html`（用 vite-plugin-singlefile 把脚本和样式都内联进去），不依赖外部文件，下载下来也能离线打开（仅限电脑；iPhone 不能直接打开本地 HTML 文件）
 
 本仓库只放了打包后的网页文件，源码在本地的 `what-to-eat-ui` 项目中。
-
-## 更新网页
-
-1. 在源码项目中运行 `npm run build`
-2. 用新生成的 `dist/index.html` 替换本仓库的 `index.html`，然后提交推送
-3. 等 1～2 分钟，GitHub Pages 会自动更新，用户的数据不受影响
